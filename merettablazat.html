@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webáruház</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <main class="container-fluid">
+        <header class="bg-primary text-white text-center py-2">
+            <h1>Webáruház</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Kezdőlap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Galéria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mérettáblázat</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <aside class="col-lg-2 bg-light p-4 rounded">
+                <h5>Keresési feltételek</h5>
+                <label for="productName" class="form-label">A termék neve:</label>
+                <input type="text" id="productName" class="form-control mb-3">
+                <label for="customRange">Szűrés ár szerint:</label>
+                <input type="range" class="custom-range" id="customRange" name="points1">     
+            </aside>
+            <article class="col-lg-8 container mt-4">
+                <h2 class="text-center">Férfi Póló Mérettáblázat</h2>
+                <p class="text-center">Az adatok centiméterben érthetőek. A mérettáblázat hibahatára +/- 2cm.</p>
+                <div class="row justify-content-center">
+                  <div class="col-md-8">
+                    <table class="table table-bordered table-hover">
+                      <thead class="thead-light">
+                        <tr>
+                          <th>Méret</th>
+                          <th>Szélesség</th>
+                          <th>Hossz</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>S</td>
+                          <td>50 cm</td>
+                          <td>69 cm</td>
+                        </tr>
+                        <tr>
+                          <td>M</td>
+                          <td>53 cm</td>
+                          <td>72 cm</td>
+                        </tr>
+                        <tr>
+                          <td>L</td>
+                          <td>56 cm</td>
+                          <td>74 cm</td>
+                        </tr>
+                        <tr>
+                          <td>XL</td>
+                          <td>58 cm</td>
+                          <td>76 cm</td>
+                        </tr>
+                        <tr>
+                          <td>2XL</td>
+                          <td>62 cm</td>
+                          <td>78 cm</td>
+                        </tr>
+                        <tr>
+                          <td>3XL</td>
+                          <td>64 cm</td>
+                          <td>80 cm</td>
+                        </tr>
+                        <tr>
+                          <td>4XL</td>
+                          <td>68 cm</td>
+                          <td>84 cm</td>
+                        </tr>
+                        <tr>
+                          <td>5XL</td>
+                          <td>72 cm</td>
+                          <td>88 cm</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </article>              
+            <aside class="col-lg-2 bg-light p-4 rounded">
+                <h5>Kapcsolódó cikkek:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="list-group-item">Accusamus nemo odio veniam beatae dolor.</li>
+                    <li class="list-group-item">Modi deleniti, molestias saepe.</li>
+                </ul>
+                <div class="col-lg-12 mt-4">
+                    <h5>Kapcsolódó cikkek:</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Accusamus nemo odio veniam beatae dolor...</p>
+                </div>
+            </aside>
+        </div>
+        <footer class="bg-primary text-white text-center py-2">
+            <p>&copy; 2025 Webáruház. Minden jog fenntartva.</p>
+        </footer>
+    </main>
+</body>
+</html>

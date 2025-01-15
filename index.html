@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webáruház</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <main class="container-fluid">
+        <header class="bg-primary text-white text-center py-2">
+            <h1>Webáruház</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Kezdőlap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Galéria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="merettablazat.html">Mérettáblázat</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <aside class="col-lg-2 bg-light p-4 rounded">
+                <h5>Keresési feltételek</h5>
+                <label for="productName" class="form-label">A termék neve:</label>
+                <input type="text" id="productName" class="form-control mb-3">
+                <label for="customRange">Szűrés ár szerint:</label>
+                <input type="range" class="custom-range" id="customRange" name="points1">     
+            </aside>
+            <article class="col-lg-8">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo1.jpg" class="card-img-top" alt="Retro Gamer férfi póló">
+                            <div class="card-body">
+                                <h5 class="card-title">Retro Gamer férfi póló</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére.</p>
+                                <p><strong>Ár:</strong> 6990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo2.jpg" class="card-img-top" alt="Túléltem még egy meetinget">
+                            <div class="card-body">
+                                <h5 class="card-title">Túléltem még egy meetinget</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced lesz! Simogatni-valóan puha anyag, rövid ujj és testhez állóbb fazon.</p>
+                                <p><strong>Ár:</strong> 6990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo3.jpg" class="card-img-top" alt="Az éveim múlásával">
+                            <div class="card-body">
+                                <h5 class="card-title">Az éveim múlásával</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">Vicces póló, szülinapi ajándéknak is tökéletes! Magas minőségű anyag, ami nem nyúlik ki, nem fakul, és nem repedezik. 100% pamut szövet</p>
+                                <p><strong>Ár:</strong> 4990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo4.jpg" class="card-img-top" alt="Az éveim múlásával">
+                            <div class="card-body">
+                                <h5 class="card-title">Az éveim múlásával</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">Vicces póló, szülinapi ajándéknak is tökéletes! Magas minőségű anyag, ami nem nyúlik ki, nem fakul, és nem repedezik.</p>
+                                <p><strong>Ár:</strong> 4990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo5.jpg" class="card-img-top" alt="Az éveim múlásával">
+                            <div class="card-body">
+                                <h5 class="card-title">Az éveim múlásával</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">Vicces póló, szülinapi ajándéknak is tökéletes! Magas minőségű anyag, ami nem nyúlik ki, nem fakul, és nem repedezik.</p>
+                                <p><strong>Ár:</strong> 4990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="kepek/polo4.jpg" class="card-img-top" alt="Az éveim múlásával">
+                            <div class="card-body">
+                                <h5 class="card-title">Az éveim múlásával</h5>
+                                <span class="border p-1">S</span>
+                                <span class="border p-1">M</span>
+                                <span class="border p-1">L</span>
+                                <span class="border p-1">XL</span>
+                                <span class="border p-1">XXL</span>
+                                <p class="card-text p-1">Vicces póló, szülinapi ajándéknak is tökéletes! Magas minőségű anyag, ami nem nyúlik ki, nem fakul, és nem repedezik.</p>
+                                <p><strong>Ár:</strong> 4990 Ft</p>
+                                <a href="#" class="btn btn-success">Kosárba</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article class="p">
+            <aside class="col-lg-2 bg-light p-4 rounded">
+                <h5>Kapcsolódó cikkek:</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="list-group-item">Accusamus nemo odio veniam beatae dolor.</li>
+                    <li class="list-group-item">Modi deleniti, molestias saepe.</li>
+                </ul>
+                <div class="col-lg-12 mt-4">
+                    <h5>Kapcsolódó cikkek:</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Accusamus nemo odio veniam beatae dolor...</p>
+                </div>
+            </aside>
+        </div>
+        <footer class="bg-primary text-white text-center py-2">
+            <p>&copy; 2025 Webáruház. Minden jog fenntartva.</p>
+        </footer>
+    </main>
+</body>
+</html>
